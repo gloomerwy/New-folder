@@ -145,10 +145,29 @@ body{
     border-radius: 1px;
 }
 .experiences{
-    background-color: burlywood;
+    background-color: lightslategray;
     font-size: xx-large;
     margin-top: 40px;
 }
 .experiences:hover{
     background-color: rgba(0,0,0,.25);
+}
+.information{
+    background-color: salmon;
+    font-size: large;
+}
+.location{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-bottom: 40px;
+}
+.cardtccp{
+    background-color: #5D576B;
+    height: 450px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
