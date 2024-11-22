@@ -1,0 +1,154 @@
+body{
+    font-family: monospace;
+}
+.nav{
+    background-color: #db1689;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navdiv{
+    font-size: large;
+    color: white;
+    height: 50px;
+}
+.navdiv:hover{
+    background: rgba(0,0,0,.25);
+    cursor: pointer;
+}
+.hotline{
+    margin-right: 400px;
+    font-size: 20px;
+    color: gold;
+    font: italic;   
+}
+.secondnav{
+    height: 100px;   
+}
+.websitename{
+    color: darkred;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+.fa-layer-group{
+    margin-top: 14px;
+}
+.fa-address-card{
+    margin-top: 14px;
+}
+.fa-file{
+    margin-top: 14px;
+}
+.mainpageimg > img{
+    width: 1333px;
+    height: 400px;
+}
+.cardcontainer{
+    height: 100px;
+    background-color: lightgray;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cardcate{
+    background-color: white;
+    height: 70px;
+    width: 250px;
+    font-size: larger;
+    align-items: center;
+    display: flex;
+}
+.category{
+    margin-top: 30px;
+}
+.fa-magnifying-glass-location{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.blue{
+    color: black;
+    size: 40px;
+    font-size: xx-large;
+}
+.lightblue{
+    color: #1b448e;
+    size: 40px;
+    font-size: xx-large;
+}
+.fa-plane{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: xx-large;
+    color: darkcyan;
+}
+.fa-hotel{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: xx-large;
+    color: #5cb1aa;
+}
+.Tourlist{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.Tourlist:hover{
+    cursor: pointer;
+}
+.cardtcc{
+    background-color: #5D576B;
+    height: 450px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.demonstrationimg{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.tourcardcontainer{
+    background-color: white;
+    justify-content: space-around;
+    display: flex;
+}
+.navigationbutton{
+    background-color: #F0544F;
+    height: 50px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: x-large;
+}
+.destinationname{
+    background-color: #C6D8D3;
+    height: 50px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+}
+.cardtcc:hover{
+    border: #5D576B;
+    cursor: pointer;
+    border-radius: 1px;
+}
+.experiences{
+    background-color: burlywood;
+    font-size: xx-large;
+    margin-top: 40px;
+}
+.experiences:hover{
+    background-color: rgba(0,0,0,.25);
+}
