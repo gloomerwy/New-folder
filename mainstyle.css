@@ -137,6 +137,7 @@ body{
     height: 50px;
     font-size: large;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 .cardtcc:hover{

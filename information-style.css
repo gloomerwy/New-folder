@@ -1,0 +1,49 @@
+body{
+    font-family: monospace;
+}
+.nav{
+    background-color: #db1689;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navdiv{
+    font-size: large;
+    color: white;
+    height: 50px;
+}
+.navdiv:hover{
+    background: rgba(0,0,0,.25);
+    cursor: pointer;
+}
+.hotline{
+    margin-right: 400px;
+    font-size: 20px;
+    color: gold;
+    font: italic;   
+}
+.fa-layer-group{
+    margin-top: 14px;
+}
+.fa-address-card{
+    margin-top: 14px;
+}
+.fa-file{
+    margin-top: 14px;
+}
+.secondnav{
+    height: 100px;
+    background-color: yellow;
+    font-size: 90px;
+}
+.explanation{
+    margin-top: 40px;
+    font-size: large;
+}
+.mainpage{
+    display: flex;
+    margin-right: 400px;
+    align-items: center;
+}
