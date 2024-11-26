@@ -172,3 +172,12 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+.foot{
+    display: flex;
+    margin: 20px;
+    font-size: large;
+}
+.footer{
+    color: gray;
+    margin-top: 40px;
+}
