@@ -119,6 +119,7 @@ body{
     background-color: white;
     justify-content: space-around;
     display: flex;
+    margin-top: 40px;
 }
 .navigationbutton{
     background-color: #F0544F;
@@ -139,6 +140,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font: bold;
 }
 .cardtcc:hover{
     border: #5D576B;
