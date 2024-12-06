@@ -1,8 +1,10 @@
+
 body{
-    font-family: monospace;
+    background: rgb(250,231,136);
+    background: linear-gradient(180deg, rgba(250,231,136,1) 0%, rgba(122,188,91,1) 45%, rgba(17,73,64,1) 100%); 
 }
 .nav{
-    background-color: #db1689;
+    background-color: #972c14;
     height: 50px;
     width: 100%;
     display: flex;
@@ -28,7 +30,7 @@ body{
     height: 100px;   
 }
 .websitename{
-    color: darkred;
+    color: white;
     font-size: 80px;
     display: flex;
     justify-content: center;
@@ -48,16 +50,16 @@ body{
 }
 .cardcontainer{
     height: 100px;
-    background-color: lightgray;
     flex-direction: row;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: lightgray;
 }
 .cardcate{
-    background-color: white;
     height: 70px;
     width: 250px;
+    background-color: white;
     font-size: larger;
     align-items: center;
     display: flex;
@@ -99,12 +101,12 @@ body{
     cursor: pointer;
 }
 .cardtcc{
-    background-color: #5D576B;
     height: 400px;
     width: 200px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-color: white;
 }
 .demonstrationimg{
     height: 160px;
@@ -115,15 +117,14 @@ body{
     margin-bottom: 40px;
 }
 .tourcardcontainer{
-    background-color: white;
     justify-content: space-around;
     display: flex;
     margin-top: 40px;
 }
 .navigationbutton{
-    background-color: #F0544F;
+    background-color: #BFBFBF;
     height: 50px;
-    width: 200px;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
@@ -133,21 +134,21 @@ body{
     font-size: x-large;
 }
 .destinationname{
-    background-color: #C6D8D3;
+    background-color: #D8E1E9;
     height: 50px;
     font-size: large;
     display: flex;
     justify-content: center;
     align-items: center;
     font: bold;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .cardtcc:hover{
-    border: #5D576B;
     cursor: pointer;
-    border-radius: 1px;
 }
 .experiences{
-    background-color: lightslategray;
     font-size: xx-large;
     margin-top: 40px;
 }
@@ -155,7 +156,7 @@ body{
     background-color: rgba(0,0,0,.25);
 }
 .information{
-    background-color: salmon;
+    background-color: #E14723;
     font-size: large;
 }
 .location{
@@ -166,8 +167,8 @@ body{
     margin-bottom: 40px;
 }
 .cardtccp{
-    background-color: #5D576B;
-    height: 450px;
+    background-color: white;
+    height: fit-content;
     width: auto;
     display: flex;
     justify-content: center;
@@ -183,7 +184,7 @@ body{
     margin-top: 40px;
 }
 .cardtcck{
-    background-color: #5D576B;
+    background-color: #E8E8E8;
     height: 450px;
     width: 350px;
     display: flex;
