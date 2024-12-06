@@ -1,8 +1,10 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(250,231,136);
+    background: linear-gradient(180deg, rgba(250,231,136,1) 0%, rgba(122,188,91,1) 45%, rgba(17,73,64,1) 100%); 
 }
 .nav{
-    background-color: #db1689;
+    background-color: #972c14;
     height: 50px;
     width: 100%;
     display: flex;
